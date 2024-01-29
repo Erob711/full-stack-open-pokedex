@@ -18,3 +18,6 @@ jobs:
       - name: Show Code in Directory
         run: |
           ls
+      - name: Show current shell user
+        run: |
+          whoami
