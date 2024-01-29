@@ -24,8 +24,8 @@ module.exports = {
     "react", "jest"
   ],
   "rules": {
-    'no-console': 'off',
     "no-unused-vars": "off",
+    "no-undef": "off",
     "indent": [
       "error",
       2
@@ -37,10 +37,6 @@ module.exports = {
     "quotes": [
       "error",
       "single"
-    ],
-    "semi": [
-      "error",
-      "never"
     ],
     "eqeqeq": "error",
     "no-trailing-spaces": "error",
